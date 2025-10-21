@@ -1,4 +1,4 @@
-name: Main Workflow (Maven + JUnit5 + Allure)
+name: Main Workflow (Maven + JUnit5 + Rest-Assured + Allure)
 
 on:
   push:
