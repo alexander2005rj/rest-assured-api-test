@@ -2,16 +2,13 @@ name: Main Workflow (Maven + JUnit5 + Allure)
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
 
-  permissions:
-    contents: write
-    pages: write
-    id-token: write
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build-and-test:
@@ -48,10 +45,6 @@ jobs:
         with:
           name: allure-report
           path: allure-report
-
-      - name: Summarize tests results
-        uses: jeantessier/test-summary-action@v1
-        if: ${{ always() }}
 
   deploy-report:
     runs-on: ubuntu-latest
