@@ -1,6 +1,6 @@
 "BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
-"0","Dog API","0","List All Breeds","1","0","List all registered breeds","0"
 "0","Dog API","0","List Images By Breed","1","0","Doesn't list a non-existent breed","0"
+"0","Dog API","0","List Images By Breed","1","0","Doesn't list images of a breed not found","0"
+"0","Dog API","0","List All Breeds","1","0","List all registered breeds","0"
 "0","Dog API","0","List Random Image of a Breed","1","0","List all registered breeds","0"
 "0","Dog API","0","List Images By Breed","1","0","List all images of a breed","0"
-"0","Dog API","0","List Images By Breed","1","0","Doesn't list images of a breed not found","0"
